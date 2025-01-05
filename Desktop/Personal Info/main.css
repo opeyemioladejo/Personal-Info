@@ -1,0 +1,104 @@
+/* Save this CSS content in a file named 'styles.css' */
+
+
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.form-background {
+    margin: 100px auto;
+    display: flex;
+    width: 60%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    background: url('Images/bg-sidebar-desktop.svg');
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.sidebar .step {
+    margin-bottom: 30px;
+}
+
+.step {
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+}
+
+.step span {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    color: #483EFF;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.step-text {
+    font-size: 14px;
+    color:white;
+}
+
+.form-content {
+    width: 70%;
+    padding: 40px;
+}
+
+.form-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #022959;
+}
+
+.form-content p {
+    color: #5e5e5e;
+    font-size: 14 px;
+    margin-bottom: 20px;
+}
+
+.form-div {
+    margin-bottom: 15px;
+}
+
+.form-div label {
+    margin-bottom: 5px;
+    font-size:14px;
+    color: #022959;
+}
+
+.form-div input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14 px;
+    color: black;
+}
+
+.form-div input::placeholder {
+    color: #aaa;
+}
+
+.form-content button {
+    background: #022959;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
