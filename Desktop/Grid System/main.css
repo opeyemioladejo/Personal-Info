@@ -39,11 +39,4 @@ body {
 .nested-column {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    height: 100%;
-}
-
-.nested-column > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
