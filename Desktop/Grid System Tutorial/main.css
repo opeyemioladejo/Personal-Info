@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    color: white;
+    font-size: 22px;
 }
 
 .container {
@@ -18,22 +20,32 @@ body {
 
 .green {
     background-color: green;
+    text-align: center;
+    padding: 15px;
 }
 
 .red {
     background-color: red;
+    text-align: center;
+    padding: 15px;
 }
 
 .blue {
     background-color: blue;
+    text-align: center;
+    padding: 15px;
 }
 
 .yellow {
     background-color: yellow;
+    text-align: center;
+    padding: 15px;
 }
 
 .black {
     background-color: black;
+    text-align: center;
+    padding: 15px;
 }
 
 .nested-column {
